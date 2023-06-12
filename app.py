@@ -18,7 +18,7 @@ st.pyplot(fig)
 st.number_input('Pick a number' ,0 ,10)
 
 
-st.graphviz('''
+st.graphviz_chart('''
   digraph {
     Big_shark -> Tuna
     Tuna -> Mackerel
