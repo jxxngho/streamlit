@@ -16,3 +16,14 @@ ax.hist(rand, bins = 15)
 st.pyplot(fig)
 
 st.number_input('Pick a number' ,0 ,10)
+
+
+st.graphviz('''
+  digraph {
+    Big_shark -> Tuna
+    Tuna -> Mackerel
+    Mackerel -> Small_fishes
+    Small_fishes -> Shrimp
+    }
+''')
+    
